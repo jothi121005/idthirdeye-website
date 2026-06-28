@@ -1,2 +1,130 @@
-# idthirdeye-website
-idThirdeye Technology Solutions Website
+# 🍛 Saffron Table — Artisan Food & Dining Website
+
+A fully responsive restaurant website with a functional cart system, category-based menu filtering, and smooth multi-page navigation — all built as a **single HTML file** with zero dependencies.
+
+---
+
+## 🌐 Live Preview
+
+> _Add your GitHub Pages / Netlify link here_
+
+---
+
+## ✨ Features
+
+- **Multi-page SPA** — Home, Menu, About, and Contact pages with smooth JS-based switching
+- **Dynamic Menu** — Filter dishes by category: Starters, Mains, Pizza, Desserts, Drinks
+- **Shopping Cart Drawer** — Slide-in cart with quantity controls and live total (₹ INR)
+- **LocalStorage Persistence** — Cart items saved across page refreshes
+- **Order Success Modal** — Animated confirmation popup on checkout
+- **Toast Notifications** — Feedback messages for add-to-cart and form actions
+- **Contact Form** — Name, email, subject, and message fields with validation
+- **Responsive Design** — Mobile hamburger menu, fluid grids, works on all screen sizes
+- **Veg / Non-Veg Labels** — Green 🟢 / Red 🔴 indicators on every dish card
+- **Hero Stats** — Animated numbers (happy customers, dishes, years) on the landing page
+- **Customer Testimonials** — Review cards section on the homepage
+- **Scroll-aware Navbar** — Shadow effect triggers on scroll
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer      | Technology                          |
+|------------|-------------------------------------|
+| Structure  | HTML5                               |
+| Styling    | CSS3 (CSS Variables, Grid, Flexbox) |
+| Logic      | Vanilla JavaScript (ES6+)           |
+| Fonts      | Google Fonts — Playfair Display, DM Sans |
+| Storage    | localStorage (cart persistence)     |
+| Hosting    | GitHub Pages / Netlify _(recommended)_ |
+
+---
+
+## 🎨 Color Palette
+
+| Name       | Hex       | Usage                        |
+|------------|-----------|------------------------------|
+| Burgundy   | `#5C1A1A` | Primary brand color, buttons |
+| Gold       | `#E8A020` | Accents, highlights, badges  |
+| Cream      | `#FDF6EC` | Page background              |
+| Charcoal   | `#1C1C1C` | Body text                    |
+| Sage       | `#7A8C6E` | Category labels              |
+
+---
+
+## 📁 Project Structure
+
+```
+saffron-table/
+└── saffron-table.html   # Entire project — HTML + CSS + JS in one file
+```
+
+---
+
+## 🚀 Getting Started
+
+No installs or setup needed!
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/jothi121005/saffron-table.git
+   ```
+
+2. **Open the file**
+   ```bash
+   cd saffron-table
+   start saffron-table.html   # Windows
+   # or just double-click the file
+   ```
+
+That's it — runs directly in any browser. ✅
+
+---
+
+## 🌍 Deployment
+
+### GitHub Pages (Free)
+1. Push the file to a GitHub repo
+2. Go to **Settings → Pages**
+3. Set source to `main` branch → `/ (root)`
+4. Your site is live at `https://jothi121005.github.io/saffron-table/saffron-table.html`
+
+### Netlify (Free)
+1. Drag and drop the HTML file at [netlify.com/drop](https://app.netlify.com/drop)
+2. Instant live URL — no account needed!
+
+---
+
+## 📄 Pages Overview
+
+| Page    | Description                                              |
+|---------|----------------------------------------------------------|
+| Home    | Hero banner, category grid, featured dishes, testimonials |
+| Menu    | Full dish listing with filter buttons by category        |
+| About   | Brand story, team section, core values                   |
+| Contact | Contact form + address, phone, email info                |
+
+---
+
+## 🛒 Cart Logic
+
+- Dishes are stored in a JavaScript array with `id`, `name`, `price`, `category`, `icon`, `badge`
+- `addToCart()` increments quantity if item already exists
+- `updateQty()` handles + / − buttons; removes item at 0
+- Cart syncs to `localStorage` on every update
+- Total calculated dynamically in Indian Rupees (₹)
+
+---
+
+## 👨‍💻 Author
+
+**Jothi** — Web Development Intern  
+idThirdeye Technology Solutions  
+GitHub: [@jothi121005](https://github.com/jothi121005)
+
+---
+
+## 📄 License
+
+This project was built as a web development course final project.  
+Feel free to use it as a reference or template for learning purposes.
