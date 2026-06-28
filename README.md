@@ -1,16 +1,13 @@
-# idThirdeye Technology Solutions — Corporate Website
+idThirdeye Technology Solutions — Corporate Website
 
 A fully responsive, single-file corporate website built for **idThirdeye Technology Solutions**, a full-service technology company headquartered in Madurai, Tamil Nadu, India.
 
----
-
-## 📌 Project Overview
+ 📌 Project Overview
 
 This project is a professional corporate website that presents idThirdeye's services, portfolio, team process, and contact information. It is built as a single HTML file with embedded CSS and JavaScript, and connects to a Flask backend for contact form submissions.
 
----
 
-## 🖥️ Live Sections
+ 🖥️ Live Sections
 
 | Section | Description |
 |---|---|
@@ -24,9 +21,7 @@ This project is a professional corporate website that presents idThirdeye's serv
 | **Contact** | Contact form + company info |
 | **Footer** | Navigation links and copyright |
 
----
-
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -35,9 +30,7 @@ This project is a professional corporate website that presents idThirdeye's serv
 | Backend (API) | Flask (Python) — runs on `http://127.0.0.1:5000` |
 | Form Submission | `fetch()` POST to `/contact` endpoint |
 
----
-
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```
 idthirdeye-website/
@@ -46,19 +39,16 @@ idthirdeye-website/
 ├── app.py            # Flask backend for contact form
 └── README.md         # Project documentation
 ```
+⚙️ Setup & Running Locally
 
----
-
-## ⚙️ Setup & Running Locally
-
-### 1. Clone the Repository
+ 1. Clone the Repository
 
 ```bash
 git clone https://github.com/jothi121005/idthirdeye-website.git
 cd idthirdeye-website
 ```
 
-### 2. Start the Flask Backend
+ 2. Start the Flask Backend
 
 Make sure Python and Flask are installed:
 
@@ -69,7 +59,7 @@ python app.py
 
 The backend will run at `http://127.0.0.1:5000`.
 
-### 3. Open the Website
+ 3. Open the Website
 
 Simply open `index.html` in your browser:
 
@@ -78,11 +68,8 @@ Simply open `index.html` in your browser:
 # Option 2: Use VS Code Live Server extension
 ```
 
-> ⚠️ The contact form requires the Flask backend to be running to submit messages.
-
----
-
-## 🎨 Design System
+ ⚠️ The contact form requires the Flask backend to be running to submit messages.
+ 🎨 Design System
 
 | Token | Value | Usage |
 |---|---|---|
@@ -92,9 +79,7 @@ Simply open `index.html` in your browser:
 | `--gold` | `#C8922A` | Decorative accents |
 | `--off-wht` | `#F5F7FA` | Section alternates |
 
----
-
-## 📋 Features
+📋 Features
 
 - ✅ Sticky navigation bar with smooth scroll
 - ✅ Animated hero section with pulsing eye watermark
@@ -104,9 +89,7 @@ Simply open `index.html` in your browser:
 - ✅ `prefers-reduced-motion` accessibility support
 - ✅ Semantic HTML structure
 
----
-
-## 📬 Contact Form — How It Works
+ 📬 Contact Form — How It Works
 
 The contact form collects:
 - Name, Work Email, Company Name
@@ -125,9 +108,7 @@ On submit, it sends a `POST` request to the Flask `/contact` endpoint:
 }
 ```
 
----
-
-## 🚀 Deployment
+ 🚀 Deployment
 
 This site can be deployed using:
 
@@ -136,12 +117,6 @@ This site can be deployed using:
 
 > Update the `fetch` URL in `index.html` from `http://127.0.0.1:5000/contact` to your deployed backend URL before going live.
 
----
-
-## 👨‍💻 Author
-
-**Jothi** — Web Development Intern, idThirdeye Technology Solutions
-GitHub: [@jothi121005](https://github.com/jothi121005)
 
 ---
 
